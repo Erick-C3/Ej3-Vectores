@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div id="opciones-img">
+        <span>Ingrese url de la imagen</span>
+        <input id="entrada-url" type="text" placeholder="url de imagen">
+        <button onclick="agregarImagen()">Agregar imagen</button>
+        <button onclick="borrarUltimaImg()">Borrar ultima imagen</button>
+
+        <span>Ingrese posicion de imagen a borrar:</span>
+        <input id="posicion-borrar" type="number" placeholder="posicion de imagen">
+        <button onclick="borrarImgEnPosicion()">Borrar esta imagen</button>
+    </div>
+
+    <div id="imagenes">
+        <!-- <img src="" alt=""> -->
+    </div>
+
+    <script src="algoritmo.js"></script>
+</body>
+</html>
